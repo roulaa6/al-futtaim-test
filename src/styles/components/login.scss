@@ -52,13 +52,14 @@
     &+ .loginform__input--label {
       color: #414141;
       left: 0;
-      opacity: 1!important;
       top: -24px;
     }
   }
   &:valid {
     &+ .loginform__input--label {
-      opacity: 0;
+      color: #414141;
+      left: 0;
+      top: -24px;
     }
   }
 }
