@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <title>Coding Test Al Futtaim</title>
+   <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <div class="wrapper">
+    <!-- Header -->
+    <header class="header">
+      <img class="header__logo" src="img/carrefour-logo.png" alt="Carrefour">
+      <div class="header__search">
+        <input class="header__search--input" type="text" value="">
+      </div>
+    </header>
+
+    <!-- Login form -->
+    <div class="login__container">
+      <h1 class="login__container--title">Sign in now</h1>
+      <p class="login__container--sub">Unlock awesome features!</p>
+      <form class="loginform" id="login" name="login" method="get">
+        <div class="loginform__input">
+          <input class="loginform__input--field" minlength="2" type="text" name="username" id="username" value="" required>
+          <label class="loginform__input--label" for="username">Username</label>
+        </div>
+        <div class="loginform__input">
+          <input class="loginform__input--field" minlength="2" type="password" name="password" id="password" value="" required>
+          <label class="loginform__input--label" for="password">Password</label>
+        </div>
+        <div class="persistent">
+          <div class="loginform__checkbox">
+            <input class="loginform__checkbox--input" type="checkbox" name="persistent" id="persistent" checked>
+            <span class="loginform__checkbox--checkmark"></span>
+            <label class="loginform__checkbox--label" for="persistent">Keep me logged in</label>
+          </div>
+          <a href="#" title="Forgot your password">Forgot password?</a>
+        </div>
+        <button class="loginform__button" type="submit" name="submit" id="submit">Sign in</button>
+      </form>
+    </div>
+
+    <div class="related">
+      <div class="products">
+        <div class="products__item">
+          <img class="products__item--img" src="img/product-img.png" alt="">
+          <p class="products__item--name">iPhone 6 Black</p>
+          <p class="products__item--price">AED 1000</p>
+        </div>
+        <div class="products__item">
+          <img class="products__item--img" src="img/product-img.png" alt="iPhone 7 Black">
+          <p class="products__item--name">iPhone 7 Black</p>
+          <p class="products__item--price">AED 2000</p>
+        </div>
+        <div class="products__item">
+          <img class="products__item--img" src="img/product-img.png" alt="iPhone 8 Black">
+          <p class="products__item--name">iPhone 8 Black</p>
+          <p class="products__item--price">AED 3000</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.min.js"></script>
+  <script src="scripts/app.js" defer></script>
+</body>
+</html>
